@@ -53,10 +53,6 @@ def main():
         pattern+="B"
       else:
         pattern+="A"
-    #try:
-    #  print ' '.join(block) + "\t\t" + pattern + " " + bacon_map[pattern]
-    #except:
-    #  pass
     if pattern in bacon_map:
       ret+=bacon_map[pattern]
     else:
